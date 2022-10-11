@@ -24,4 +24,4 @@ You can use the mockup as a guide for the design of the frontend. You can use an
 - Use VueJS for the frontend
 - Use Go for the backend
 
-![VueJS](https://github.com/unitedcollab/Full-Stack-Interview/blob/main/vuejs-ar21.svg)
+![VueJS](https://github.com/unitedcollab/Full-Stack-Interview/blob/main/vuejs-icon.svg)
