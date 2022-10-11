@@ -16,13 +16,14 @@ You can use the mockup as a guide for the design of the frontend. You can use an
 
 ## Tips
 
-- Do your best to impress us, your code run through prettier may help.
+- Do your best to impress us, your code run through prettier and eslint may help.
 - Attention to detail is important.
 
 ## Bonus Points
 
 - Use VueJS for the frontend
 - Use Go for the backend
+- Tests for frontend and backend
 
 |                     VueJS                     |                    Golang                     |
 | :-------------------------------------------: | :-------------------------------------------: |
