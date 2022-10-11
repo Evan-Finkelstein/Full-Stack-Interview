@@ -24,6 +24,4 @@ You can use the mockup as a guide for the design of the frontend. You can use an
 - Use VueJS for the frontend
 - Use Go for the backend
 
-![VueJS](https://github.com/unitedcollab/Full-Stack-Interview/blob/main/vuejs-icon.svg)
-
-![Golang](https://github.com/unitedcollab/Full-Stack-Interview/blob/main/golang-icon.svg)
+![VueJS](https://github.com/unitedcollab/Full-Stack-Interview/blob/main/vuejs-icon.svg) | ![Golang](https://github.com/unitedcollab/Full-Stack-Interview/blob/main/golang-icon.svg)
