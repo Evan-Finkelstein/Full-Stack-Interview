@@ -26,4 +26,4 @@ You can use the mockup as a guide for the design of the frontend. You can use an
 
 |                     VueJS                     |                    Golang                     |
 | :-------------------------------------------: | :-------------------------------------------: |
-| ![VueJS](vuejs-icon.svg)[](https://vuejs.org) | ![Golang](golang-icon.svg)[](https://go.dev/) |
+| [![VueJS](vuejs-icon.svg)](https://vuejs.org) | [![Golang](golang-icon.svg)](https://go.dev/) |
