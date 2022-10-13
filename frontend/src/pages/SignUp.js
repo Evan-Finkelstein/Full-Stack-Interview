@@ -20,21 +20,30 @@ export default class Login extends Component {
     render() {
         return (
             <div className='row'>
-                <img className='logo' src={logo}/>
-                <div className='form'>
-                <form onSubmit={this.handleSubmit}>
-                    <h2>Sign Up</h2>
-                    <label>
-                        Username:
-                        <input
-                            className='input'
-                            onChange={(e) => this.setState({ username: e.target.value })}
-                            value={this.state.username} />
-                    </label>
-                   <button className='button'>Sign Up</button>
-                    <a className='redirect' href="/">Already a member? Login!</a>
-                </form>
-                </div>
+                <img className='logo' src={logo} />
+                    <form className='form' onSubmit={this.handleSubmit}>
+                        <h2>Sign Up</h2>
+                            <input
+                                className='input'
+                                onChange={(e) => this.setState({ username: e.target.value })}
+                                value={this.state.username} 
+                                placeholder="Username"
+                                />
+                            <input
+                                className='input'
+                                onChange={(e) => this.setState({ password: e.target.value })}
+                                value={this.state.password} 
+                                placeholder="Password"
+                                />
+                            <input
+                                className='input'
+                                onChange={(e) => this.setState({ password: e.target.value })}
+                                value={this.state.password} 
+                                placeholder="Confirm Password"
+                                />
+                        <button className='signup'> Sign up </button>
+                       <div className='already'>Allready a user? <a className='redirect' href="/">Log In</a></div>
+                   </form>
             </div>
         )
     }

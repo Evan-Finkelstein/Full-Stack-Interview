@@ -29,20 +29,23 @@ export default class Login extends Component {
         return (
             <div className='row'>
                 <img className='logo' src={logo} />
-                <div className='form'>
-                    <form onSubmit={this.handleSubmit}>
+                    <form className='form' onSubmit={this.handleSubmit}>
                         <h2>Log In</h2>
-                        <label>
-                            Username:
                             <input
                                 className='input'
                                 onChange={(e) => this.setState({ username: e.target.value })}
-                                value={this.state.username} />
-                        </label>      
+                                value={this.state.username} 
+                                placeholder="Username"
+                                />
+                            <input
+                                className='input'
+                                onChange={(e) => this.setState({ password: e.target.value })}
+                                value={this.state.password} 
+                                placeholder="Password"
+                                />
                         <button className='button'> Login </button>
-                        <a className='redirect' href="/signup">Not a member? Sign up!</a>
+                        <a className='redirect' href="/signup">Sign up</a>
                     </form>
-                </div>
             </div>
         )
     }
