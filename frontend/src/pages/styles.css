@@ -1,0 +1,65 @@
+.row{ 
+    display: flex;
+    flex-wrap:wrap;}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15em;
+    text-align: center;
+    font-family: 'Museo Sans';
+
+}
+
+.logo{
+    display: flex;
+    width: 40em;
+    height: 51.2em;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15em;
+}
+.button{
+   display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 174, 239);
+    border-radius: 40px;
+    color: white;
+    font-family:'Museo Sans';
+    border-color: rgb(0, 174, 239);
+    width: 10em;
+    text-align: center;
+    padding-left: 3.2em;
+    padding-top: .5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 4em;
+    height: 2.5em;
+    font-weight: bold;
+}
+.input{
+    margin-left: .5em;
+}
+ .home-button{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(0, 174, 239);
+    border-radius: 40px;
+    color: white;
+    font-family:'Museo Sans';
+    border-color: rgb(0, 174, 239);
+    width: 10em;
+    text-align: center;
+    padding-left: 3.3em;
+    margin-top: 1em;
+    padding-top: .5em;
+    margin-bottom: 1em;
+    height: 2.5em;
+    font-weight: bold;
+
+ }
