@@ -17,13 +17,12 @@ export default class User extends Component {
   }
 
   render() {
-   
     return (
-      <div className='row'>
-        <img className='logo' src={logo}/>
-        <div className='home'>
-           <div className='welcome'> Welcome {this.state.username} to your home page!</div>
-           <button className='home-button' onClick={() => this.handleLogOut()}>Log out</button>
+      <div className='main'>
+        <div className='background'>  <img className='logo' src={logo} /></div>
+        <div className='form-area'>
+            <div className='welcome'> Welcome {this.state.username} to your home page!</div>
+            <button className='button' onClick={() => this.handleLogOut()}><div className='button-text'>Log Out</div></button>
         </div>
       </div>
     )

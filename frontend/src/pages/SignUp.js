@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import request from 'superagent';
-import logo from './mobile-logo.png';
-import desktop from './desktop-logo.png';
+import logo from './logo.png';
 export default class Login extends Component {
     state = {
         username: '',
@@ -21,8 +20,9 @@ export default class Login extends Component {
     render() {
         return (
             <div className='main'>
-                <img className='mobile-logo' src={logo} />
-                <img className='desktop-logo' src={desktop} />
+                <div className='background'> 
+                 <img className='logo' src={logo} />
+                </div>
                 <div className='form-area'>
                     <form className='form' onSubmit={this.handleSubmit}>
                         <h2 className='text'>Sign Up</h2>

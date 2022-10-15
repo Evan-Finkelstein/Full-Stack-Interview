@@ -5,14 +5,31 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  position: relative;
   height: 100%;
-}
+  width: 100%;
 
+background: #FFFFFF;
+}
+#root{
+  height: 100%;
+  width: 100%;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+html {
+  height: 100%;
+  width: 100%;
+}
+#main{
+    
+  height: 100%;
+  width: 100% 
 
+
+}
 @media only screen and (max-width: 1200px) {
   body {
     display: flex;

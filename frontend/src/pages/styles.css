@@ -1,7 +1,5 @@
 
- .redirect{
-    color: rgb(0, 174, 239);
-}
+
 .button-text{
     color:white;
     font-weight: 700;
@@ -13,20 +11,29 @@
     font-family: 'Museo Sans';
     font-weight: 700;
     text-decoration: none;
-}
-.allready{
-    font-family: 'Museo Sans';
-    font-weight: 300;
+    color: rgb(0, 174, 239);
+
 }
 .button{
     border:none;
 }
-@media only screen and (min-width: 950px) {
-  .main{ 
+.welcome{
+    margin-right: 1em;
+}
+.logo{
+    transform: rotate(-0.19deg);
+    }
+    
+@media only screen and (min-width: 751px) {
+.main{ 
     display: flex;
     flex-wrap:wrap;
     height: 100%;
+    margin: 0;
+    padding: 0;
 }
+
+
 
 .input{
     box-sizing: border-box;
@@ -55,21 +62,7 @@
     align-items: center;
     margin-left: 15em;
 }
- .home-button{
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(0, 174, 239);
-    border-radius: 40px;
-    color: white;
-    font-family:'Museo Sans';
-    border-color: rgb(0, 174, 239);
-    width: 10em;
-    text-align: center;
-    padding-left: 3.3em;
-    height: 2.5em;
-    font-weight: bold;
 
- }
  .form-area{
     display: flex;
     align-items: center;
@@ -77,14 +70,6 @@
     width:55%
   }
 
-.mobile-logo{
-display: none;
-
-}
-.desktop-logo{
-width: 45%;   
-height:100%
-    }
 form{
     display: flex;
     flex-direction: column;
@@ -114,23 +99,43 @@ form{
     font-size: 36px;
     margin-bottom: 0.5em;
         /* or 47px */
-        
-    
+     }
+
+.background{
+    background: url(background-desk.png);
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
      }
 
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 750px) {
 
-  .main{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    font-family: 'Museo Sans';
-    width: 390px;
-    flex-wrap:wrap;
+.background{
+    background: url(background-mobile.png);
+    width: 100%;
     height: 100%;
-    width: 100%
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5em;
+    background-size: 100% 100%;
+   
+     }
+    
+  .main{
+    display: grid;
+    grid-template-rows: 40% 100%;
+    font-family: 'Museo Sans';
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 
   }
   .input{
@@ -143,21 +148,14 @@ form{
     margin-bottom: 2em;
   }
 
-  .form-area{
+.form-area{
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 70%;
   }
-  .mobile-logo{
-    width: 100%;
-    height: 100%;
-    transform: rotate(-0.19deg);
-    max-width: 550px;
+  
 
-}
-.desktop-logo{
-    display: none;  
-    }
 form{
     display: flex;
     flex-direction: column;
@@ -187,8 +185,7 @@ form{
     font-size: 36px;
     margin-bottom: 0.5em;
     /* or 47px */
-    
-
  }
+
 
 }

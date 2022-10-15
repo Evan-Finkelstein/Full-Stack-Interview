@@ -16,7 +16,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <div>
+      <div id='main'>
         <Router>
           <Switch>
             <Route exact path='/' render={(routerProps) =>
